@@ -9,3 +9,11 @@ output "cluster_endpoint" {
   # We use [0] because your EKS resource uses 'count'
   value       = aws_eks_cluster.eks[0].endpoint
 }
+# File: ../module/outputs.tf
+
+output "cluster_certificate_authority_data" {
+  description = "The Certificate Authority data required to auth with the cluster"
+  # We use [0] because your EKS resource uses 'count'
+  # We use certificate_authority[0] because it's a list attribute
+  value       = aws_eks_cluster.eks[0].certificate_authority[0].data
+}
