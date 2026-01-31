@@ -34,7 +34,7 @@ variable "eks-sg" { default = "dev-eks-sg" }
 
 # EKS
 variable "is-eks-cluster-enabled" { default = true }
-variable "cluster-version" { default = "1.25" }
+variable "cluster-version" { default = "1.33" }
 variable "endpoint-private-access" { default = true }
 variable "endpoint-public-access" { default = true }
 variable "ondemand_instance_types" {

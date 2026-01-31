@@ -1,8 +1,8 @@
 # 🚀 Configuring Production-Ready EKS Clusters with Terraform and GitHub Actions
-[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
+[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/uday-kumar/)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/jdzF8kTtw2)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@amanpathakdevops)
-[![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@udaykumardevops)
+[![GitHub](https://img.shields.io/github/stars/UdayKumar-DevOps.svg?style=social)](https://github.com/UdayKumar-DevOps)
 [![Serverless](https://img.shields.io/badge/Serverless-%E2%9A%A1%EF%B8%8F-blueviolet)](https://www.serverless.com)
 [![AWS](https://img.shields.io/badge/AWS-%F0%9F%9B%A1-orange)](https://aws.amazon.com)
 [![Terraform](https://img.shields.io/badge/Terraform-%E2%9C%A8-lightgrey)](https://www.terraform.io)
@@ -34,6 +34,6 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE
 - **Discussions**: Join discussions, ask questions, and connect with fellow learners in the GitHub Discussions section.
 
 ## 📢 Spread the Word
-Share your journey with your network and tag me, [Aman Pathak](https://www.linkedin.com/in/aman-devops), when you post your blogs on LinkedIn. Let's learn together!
+Share your journey with your network and tag me, [Uday Kumar](https://www.linkedin.com/in/uday-kumar), when you post your blogs on LinkedIn. Let's learn together!
 
 Happy learning and blogging! 🌟

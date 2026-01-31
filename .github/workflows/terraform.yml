@@ -38,12 +38,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v3
+        uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.9.3
+          terraform_version: 1.6.0
           terraform_wrapper: true
 
       # Optional: Enable caching to speed up init
