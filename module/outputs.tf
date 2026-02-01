@@ -17,3 +17,8 @@ output "cluster_certificate_authority_data" {
   # We use certificate_authority[0] because it's a list attribute
   value       = aws_eks_cluster.eks[0].certificate_authority[0].data
 }
+
+output "cluster_name" {
+  description = "Kubernetes Cluster Name"
+  value       = aws_eks_cluster.eks[0].name
+}

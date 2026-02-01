@@ -9,21 +9,21 @@ variable "igw-name" {default = "dev-igw"}
 variable "pub-subnet-count" {default = "2"}
 variable "pub-cidr-block" {
   type = list(string)
-  default = [ "value" ]
+  default = [ "10.0.1.0/24", "10.0.2.0/24" ]
 }
 variable "pub-availability-zone" {
   type = list(string)
-  default = [ "value" ]
+  default = [ "ap-southeast-1a", "ap-southeast-1b" ]
 }
 variable "pub-sub-name" {default = "dev-pub-subnet"}
 variable "pri-subnet-count" {default = "2"}
 variable "pri-cidr-block" {
   type = list(string)
-  default = [ "value" ]
+  default = [ "10.0.3.0/24", "10.0.4.0/24" ]
 }
 variable "pri-availability-zone" {
   type = list(string)
-  default = [ "value" ]
+  default = [ "ap-southeast-1a", "ap-southeast-1b" ]
 }
 variable "pri-sub-name" {default = "dev-pri-subnet"}
 variable "public-rt-name" {default = "dev-public-rt"}
@@ -41,10 +41,10 @@ variable "is_eks_nodegroup_role_enabled" {
 }
 
 # EKS
-variable "is-eks-cluster-enabled" {default = "true"}
+variable "is-eks-cluster-enabled" {default = true}
 variable "cluster-version" {default = "1.33"}
-variable "endpoint-private-access" {default = "true"}
-variable "endpoint-public-access" {default = "true"}
+variable "endpoint-private-access" {default = true}
+variable "endpoint-public-access" {default = true}
 variable "addons" {
   type = list(object({
     name    = string
